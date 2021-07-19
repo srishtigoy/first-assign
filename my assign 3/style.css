@@ -1,0 +1,70 @@
+.group1 {
+    text-align: center;
+}
+.land{
+    font-size: 30px;
+}
+
+.o{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+    background-color: skyblue !important;
+}
+.Q {
+    text-align: center;
+}
+.end{
+    padding-top: 30px !important;
+}
+.service{
+    font-size: 30px;
+    text-align: center;
+    color: skyblue;
+    margin-top: 50px !important;
+}
+.content{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+}
+.sect1{
+    align-items: center;
+    text-align-last: center;
+    padding:0px 40px;
+}
+.section1{
+    display: inline-block;
+   padding: 0px 20px;
+}
+.section2{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.section3{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.para1{
+    width: 250px;
+    word-wrap: normal;
+    position: relative;
+    font-size: 16px;
+    
+}
+.para2{
+    width: 250px;
+    word-wrap: normal;
+    font-size: 16px;
+    position: relative;
+    
+   
+}
+.para3{
+    width: 250px;
+    word-wrap: normal;
+    font-size: 16px;
+    position: relative;
+    
+}
