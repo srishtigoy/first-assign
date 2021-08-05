@@ -1,0 +1,53 @@
+
+section{
+    width: 100%;
+    float: left;
+   
+}
+.page{
+    width: 100%;
+    float: left;
+   
+}
+.upper{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 100px;
+    font-size: 40px;
+}
+.group{
+    width: 100%;
+    float: left;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:white !important;
+    
+}
+.buttons{
+    width: 100%;
+    float: left;
+}
+.btn{
+    width: 100%;
+    float: left;
+}
+.myforms{
+    width: 100%;
+    float: left;
+}
+.loginform{
+    width: 100%;
+    float: left;
+}
+.signupform{
+    width: 100%;
+    float: left;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}

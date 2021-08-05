@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="normalize.min.css">
+    <title>Document</title>
+</head>
+
+<body style=" background-color: sandybrown;">
+    <section>
+        <div class="page">
+            <div class="upper">
+                <p>APPOINTMENT BOOKING SYSTEM</p>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <div class="group">
+                        <div class="buttons">
+                            <div class="col-sm-6">
+                                <div class="btn">
+                                    <button id="loginbtn" onclick="showlogin();">LOGIN</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="btn">
+                                    <button id="signupbtn"  onclick="showsignup();">SIGNUP</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myforms">
+                            <div class="loginform" id="inform">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Username</label>
+                                        <input type="text" class="form-control" name="username" id="username" placeholder="Enter Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" id="submit">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="signupform hidden" id="upform">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Username</label>
+                                        <input type="text" class="form-control" name="username" id="username" placeholder="Enter Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Confirm Password</label>
+                                        <input type="password" class="form-control" name="cpassword" id="cpassword" placeholder="Enter Confirm Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" id="submit">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script type="text/javascript">
+function showlogin(){
+    document.getElementById('upform').classList.add('hidden');
+    document.getElementById('inform').classList.remove('hidden');
+    document.getElementById('inform').classList.add('show');
+}
+function showsignup(){
+    document.getElementById('inform').classList.add('hidden');
+    document.getElementById('upform').classList.remove('hidden');
+    document.getElementById('upform').classList.add('show');
+}
+</script>
+</html>
